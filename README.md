@@ -1,6 +1,13 @@
 # iplay
 Imperial Playground
 
+### Prerequisites
+
+Latest nodes and npm versions installed on your computer.
+
+Open a terminal and navigate to the project directory.
+(where you will find the file package.json used by npm install)
+
 ### Install Dependencies
 
 ```
@@ -13,9 +20,15 @@ npm install
 npm start
 ```
 
-Now browse to the app at `http://localhost:8000/home/index.html`.
+### Run the server:
 
-Run the server:
-
-```sh
+```
 node jwt.server.js
+```
+
+### Play!
+
+```
+`http://localhost:8000/home/index.html`.
+```
+
