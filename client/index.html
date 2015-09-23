@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-client="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-client="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-client="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <title>imperial Login</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/kendo.common.core.min.css" />
+  <link rel="stylesheet" href="css/kendo.default.min.css" />
+  <link rel="stylesheet" href="css/imperial.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://kendo.cdn.telerik.com/2015.2.805/js/angular.min.js"></script>
+  <script src="http://kendo.cdn.telerik.com/2015.2.805/js/kendo.all.min.js"></script>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#/simple-login">Simple Login</a></li>
+    <li><a href="#/kendo-login">Kendo Login</a></li>
+  </ul>
+
+  <div ng-view></div>
+
+  <!--script src="bower_components/angular/angular.js"></script-->
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="simple-login/simple-login.js"></script>
+  <script src="kendo-login/kendo-login.js"></script>
+</body>
+</html>

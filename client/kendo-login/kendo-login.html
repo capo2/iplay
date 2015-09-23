@@ -1,0 +1,36 @@
+<div>
+  <div class="demo-section k-header">
+    <div id="Imperial Login">
+      <h4>Kendo Login</h4>
+      <form kendo-validator="validator" ng-submit="validate($event)">
+
+        <ul id="fieldlist">
+
+          <li>
+            <!--label for="username" class="required">User Name</label-->
+            <input type="text" id="username" name="user Name"
+                   class="k-textbox" placeholder="user name"
+                   required validationMessage="Enter {0}" style="width: 220px;" />
+          </li>
+
+          <li>
+            <!--label for="password" class="required"></label-->
+            <input type="text" id="password" name="password"
+                   class="k-textbox" placeholder="Password"
+                   required validationMessage="Enter {0}" style="width: 220px;" />
+          </li>
+
+          <li  class="accept">
+            <input type="checkbox" name="rememberMe" /> Remember me
+          </li>
+
+          <li  class="confirm">
+            <button class="k-button k-primary" type="submit">Login</button>
+          </li>
+
+          <li class="status {{ validationClass }}">{{ validationMessage }} </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+</div>
