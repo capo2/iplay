@@ -29,6 +29,6 @@ node jwt.server.js
 ### Play!
 
 ```
-`http://localhost:8000/home/index.html`.
+`http://localhost:8080/client/index.html`.
 ```
 
