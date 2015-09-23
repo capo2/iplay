@@ -1,0 +1,13 @@
+{
+  "name": "iplay",
+  "description": "login with JWT-Token using Express Server and AngularJS Client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vyable/imperial",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0"
+  }
+}
